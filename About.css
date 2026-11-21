@@ -1,0 +1,26 @@
+*{color: aliceblue;}
+body {
+    padding: 0.5%;
+    background-color: gray;
+
+}
+.HeadAbout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: rgba(1, 57, 57, 0.607);
+    padding:25px;
+    gap:25px;
+    border-radius:15px;
+}
+.Abot {
+display: flex;
+
+}
+
+.About {
+   border-radius: 20px;
+background-color: chocolate;
+padding: 20px;
+}
