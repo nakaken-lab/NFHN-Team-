@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #231712; /* Cokelat gelap espresso */
+    color: #fdf8f5; /* Putih krem lembut */
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #3e2723; /* Cokelat tua hangat */
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+    border: 1px solid #5d4037;
+}
+
+/* Bagian Header */
+.header-about {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+}
+
+.header-about h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    color: #f3e5d8;
+}
+
+.header-about h3 {
+    font-size: 20px;
+    color: #d7ccc8;
+    margin-bottom: 15px;
+}
+
+/* Daftar Nama Anggota (Pills) */
+.team-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 15px 0 20px 0;
+}
+
+.team-list li {
+    background-color: #5d4037; /* Cokelat medium */
+    color: #f5ebe0;
+    padding: 6px 18px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid #8d6e63;
+}
+
+.school-info {
+    font-size: 15px;
+    color: #e6ccb2;
+}
+
+/* Bagian Kartu Anggota */
+.story-section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #f3e5d8;
+    border-bottom: 2px solid #6d4c41;
+    padding-bottom: 10px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #6f4e37; /* Cokelat kopi / moka */
+    border-radius: 16px;
+    padding: 25px 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+    border: 1px solid #8c6239;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.badge {
+    align-self: flex-start;
+    background-color: #3e2723;
+    color: #e6ccb2;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 50px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #ffffff;
+}
+
+.card p {
+    font-size: 14px;
+    color: #f5ebe0;
+    line-height: 1.5;
+}
