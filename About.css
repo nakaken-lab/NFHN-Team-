@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #231712; /* Cokelat gelap espresso */
-    color: #fdf8f5; /* Putih krem lembut */
+    background-color: #231712;
+    color: #fdf8f5;
     padding: 40px 20px;
     line-height: 1.6;
 }
@@ -15,14 +15,13 @@ body {
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    background-color: #3e2723; /* Cokelat tua hangat */
+    background-color: #3e2723;
     padding: 40px 30px;
     border-radius: 20px;
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
     border: 1px solid #5d4037;
 }
 
-/* Bagian Header */
 .header-about {
     text-align: center;
     max-width: 700px;
@@ -42,24 +41,19 @@ body {
     margin-bottom: 15px;
 }
 
-/* Daftar Nama Anggota (Pills) */
 .team-list {
     list-style: none;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 20px;
     margin: 15px 0 20px 0;
 }
 
 .team-list li {
-    background-color: #5d4037; /* Cokelat medium */
     color: #f5ebe0;
-    padding: 6px 18px;
-    border-radius: 50px;
     font-weight: 600;
-    font-size: 14px;
-    border: 1px solid #8d6e63;
+    font-size: 15px;
 }
 
 .school-info {
@@ -67,7 +61,6 @@ body {
     color: #e6ccb2;
 }
 
-/* Bagian Kartu Anggota */
 .story-section h2 {
     text-align: center;
     font-size: 28px;
@@ -84,7 +77,7 @@ body {
 }
 
 .card {
-    background-color: #6f4e37; /* Cokelat kopi / moka */
+    background-color: #6f4e37;
     border-radius: 16px;
     padding: 25px 20px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
@@ -94,19 +87,14 @@ body {
     flex-direction: column;
 }
 
-
-
 .badge {
     align-self: flex-start;
-    background-color: #3e2723;
     color: #e6ccb2;
     font-size: 12px;
     font-weight: bold;
-    padding: 4px 12px;
-    border-radius: 50px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 .card h3 {
